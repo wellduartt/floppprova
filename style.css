@@ -1,0 +1,95 @@
+*{
+    margin: 0px;
+}
+
+body, html{
+    width: 100%;
+    height: 100%;
+
+}
+
+.container{
+    width: 100%;
+    max-width: 1100px;
+     margin-left: auto; 
+     margin-right: auto; 
+    background-color: #ccc;
+    
+}
+.p{
+    margin-left: auto;
+    margin-right: auto;
+    position: center;
+}
+
+header{
+    height: 120px;
+    background-color: #79c1fc;
+}
+
+.box{
+    width: 50%;
+    height: 140px;
+    float: left;
+
+}
+
+.box1{
+    background-color: #a7afb5;
+}
+
+.box2{
+    background-color: #c0e1fa;
+}
+
+.box3{
+    background-color: #faa834;
+}
+
+.box4{
+    background-color: #de4037;
+}
+
+.box5{
+    background-color: #636362;
+}
+
+
+.clearfix{
+    clear: both;
+}
+
+
+            /*iPad Pro*/
+@media screen and (max-height: 1366px) and (max-widht:1024px) {
+    .box1{
+        width: 100%;
+    }
+    .box2{
+        width: 100%;
+    }
+    .box3{
+        width: 50%;
+    }
+    .box4{
+        width: 50%;
+    }
+    .box5{
+        width: 50%;
+    }
+}
+
+@media screen and (max-height: 640px) and (max-widht: 360px){
+    .box2{
+        width: 100%;
+    }
+    .box3{
+        width: 100%;
+    }
+    .box4{
+        width: 100%;
+    }
+    .box5{
+        width: 100%;
+    }
+}
